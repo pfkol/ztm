@@ -26,7 +26,10 @@ namespace ztm
 
             webClient = new WebClient();
             webClient.DownloadFile(source,destination);
-        } 
+        }
+        public void ExtractZipGTFS(){
+            ZipFile.ExtractToDirectory(destination, destinationEx);
+        }
     }
     
     
