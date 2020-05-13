@@ -9,7 +9,9 @@ namespace ztm
     {
         static void Main(string[] args)
         {
-
+            ZTM obj = new ZTM();
+            obj.GetZipGTFS();
+            obj.ExtractZipGTFS();
         }
     }
      class ZTM
